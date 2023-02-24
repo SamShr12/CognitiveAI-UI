@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../layout/Navbar'
 import Bg from '../../../images/RaaniImage.jpg'
 import gg2 from '../../../images/test-image.jpg'
+import Footer from '../layout/Footer'
 
 function Home() {
   return (
@@ -37,7 +38,7 @@ function Home() {
       {/* endwhatwedo */}
 
       {/* resukat are everything */}
-      <section className='w-100'>
+      <section className='w-100 bac-gg'>
         <div className="hero__container py-24">
           <div className="flex gap-10">
           <div className='my-28 sec-1 w-9/12'>
@@ -64,6 +65,60 @@ function Home() {
         </div>
       </section>
       {/* endresult are everythng */}
+      {/* idkwhatsectionthisis */}
+      <section className='w-100 my-36'>
+        <div className='w-90'>
+          <h2 className='font-bold text-lg'>Learning everything</h2>
+          <h1 className='font-bold text-5xl'>Explore CognitiveAI</h1>
+          <div className="grid-2 mt-40">
+            <div className="el-exp-s1">
+                <img src={Bg} alt="" />
+                <div>
+                  <p>East</p>
+                  <h2 className='text-5xl font-light'>Hello World</h2>
+                </div>
+            </div>
+            <div className="el-exp">
+                <img src={gg2} alt="" />
+                <div>
+                  <p>East</p>
+                  <h2 className='text-5xl font-light'>Hello World</h2>
+                </div>
+            </div>
+            <div className="el-exp-s1">
+                <img src={Bg} alt="" />
+                <div>
+                  <p>East</p>
+                  <h2 className='text-5xl font-light'>Hello World</h2>
+                </div>
+            </div>
+            <div className="el-exp">
+                <img src={gg2} alt="" />
+                <div>
+                  <p>East</p>
+                  <h2 className='text-5xl font-light'>Hello World</h2>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* endidkwhatsectionthisis */}
+
+      {/* endingnote */}
+        <section className='w-100 my-36'>
+          <div className='w-90 bac-gg py-36'>
+            <div className='w-90 flex gap-2'>
+              <div className=''>
+                <h1 className='font-light text-[#fff] text-6xl'>Creative, Develop, be Certified</h1>
+                <p className='font-semibold text-[#fff]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident aliquid, tempora perferendis laboriosam </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      {/* endendingnote */}
+      {/* footer */}
+      <Footer />
+      {/* footerend */}
     </section>
   )
 }
