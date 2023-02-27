@@ -11,7 +11,7 @@ export default function MainNav() {
             <div className='flex gap-10'>
                 <Link>Enrolled</Link>
                 <Link>Categories</Link>
-                <Link>Sam</Link>
+                <Link to={`/profile`}>Sam</Link>
             </div>
         </header>
     </nav>
