@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { Home } from "./components"
+import { Default, Home } from "./components"
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
     <div className="main">
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/main" element={<Default />} />
         </Routes>
     </div>
   )
