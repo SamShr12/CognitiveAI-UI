@@ -8,7 +8,7 @@ function Default() {
         <MainNav />
         <section className='w-100'>
                 <section className='hero__container'>
-                    <h1 className='text-center font-bolder text-5xl mt-20'>Create your course and start learning</h1>
+                    <h1 className='text-center font-bolder text-5xl mt-40'>Create your course and start learning</h1>
                     <p className='text-center mb-10 font-bold'>Generate AI generate courses and receive certificate</p>
                     <div className='flex'>
                         <input type="text" name="" id="" className='input-text-generate px-4' placeholder='Write something...' />
@@ -16,7 +16,7 @@ function Default() {
                     </div>
                 </section>
                 <section className='w-90'>
-                    <h2 className='text-3xl font-bolder mt-20'>Explore</h2>
+                    <h2 className='text-3xl font-bolder mt-32'>Explore</h2>
                     <div className="grid-4 mt-5">
                         <div className='el-course'>
                             <Link to={"/course/detail"}>

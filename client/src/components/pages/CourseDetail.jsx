@@ -16,7 +16,9 @@ function CourseDetail() {
                 Minus voluptatum repudiandae consectetur! At quas quae libero eligendi. Atque vero repellat neque, modi, 
                 tempora quisquam aperiam aliquid, alias unde dignissimos quis.
                 </p>
-            <button className='btn-start px-4 py-2 mt-2'>Get Started</button>
+                <Link to={`/s1`}>
+                    <button className='btn-start px-4 py-2 mt-2'>Get Started</button>
+                </Link>
 
             <div className='mt-16'>
                 <h2 className='font-bolder text-4xl'>Course</h2>

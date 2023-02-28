@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { CourseDetail, Default, Home, Profile } from "./components"
+import { CourseDetail, Default, Home, Profile, SolveQues } from "./components"
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
           <Route path="/main" element={<Default />} />
           <Route path="/course/detail" element={<CourseDetail />} />
           <Route path="/profile" element={<Profile />}/>
+          <Route path="/s1" element={<SolveQues />} />
         </Routes>
     </div>
   )
