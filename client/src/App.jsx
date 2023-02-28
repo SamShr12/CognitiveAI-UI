@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { CourseDetail, Default, Home, Profile, SolveQues } from "./components"
+import { CourseDetail, Default, Home, Login, Profile, Register, SolveQues } from "./components"
 
 function App() {
 
@@ -11,6 +11,8 @@ function App() {
           <Route path="/course/detail" element={<CourseDetail />} />
           <Route path="/profile" element={<Profile />}/>
           <Route path="/s1" element={<SolveQues />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
     </div>
   )
